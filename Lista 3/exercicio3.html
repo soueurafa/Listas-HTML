@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FListas e Formulários</title>
+</head>
+<body>
+
+    <form enctype="text/plain">
+
+        <fieldset>
+                <legend>Cadastre-se</legend>
+
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" placeholder="Digite seu nome">
+                <br>
+
+                <label for="endereço">Endereço</label>
+                <input type="text" id="endereço" placeholder="Digite seu endereço">
+                <br>
+
+                <label for="escolaridade">Escolaridade:</label>
+                <select name="escolaridade" id="escolaridade">
+                    <option value="fundamental">Ensino fundamental</option>
+                    <option value="médio" selected>Ensino Médio</option>
+                    <option value="superior">Ensino Superior</option>
+                </select>
+                <br>
+
+                Setor
+
+                <input type="radio" name="setor" id="gerencia" value="Gerência" >
+                <label for="gerencia">Gerência</label>
+
+                <input type="radio" name="setor" id="financeiro" value="Financeiro" >
+                <label for="financeiro">Financeiro</label>
+
+                <input type="radio" name="setor" id="recepçao" value="Recepção" >
+                <label for="recepçao">Recepção</label>
+
+                <input type="radio" name="setor" id="administrativo" value="Administrativo" >
+                <label for="administrativo">Administrativo</label>
+                <br>
+
+                Quais dessas áreas são do seu interesse?
+                <br>
+
+                <input type="checkbox" name="áreas" id="computaçao" value="Computação">
+                <label for="computaçao">Computação</label>
+
+                <input type="checkbox" name="áreas" id="engenharia" value="Engenharia">
+                <label for="engenharia">Engenharia</label>
+
+                <input type="checkbox" name="áreas" id="biologia" value="Biologia">
+                <label for="biologia">Biologia</label>
+
+                <input type="checkbox" name="áreas" id="psicologia" value="Psicologia">
+                <label for="psicologia">Psicologia</label>
+                <br>
+
+                Observações: <br>
+                <textarea></textarea>
+                <br>
+
+                <button type="reset">Limpar</button>
+                <button type="submit">Enviar</button>
+        </fieldset>
+
+    </form>
+    
+</body>
+</html>

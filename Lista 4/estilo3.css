@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Seaweed+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Seaweed+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto&family=Seaweed+Script&display=swap');
+
+body
+{
+    margin: auto; width: 1200px; text-align: right;
+}
+
+.p1{ font-family: "Roboto"; font-size: 24px;}
+
+h1{ font-family: "Seaweed Script"; font-size: 72px; color: #A93983; text-align: left;}
+
+.p2{ font-family: "Quicksand"; font-size: 18px;}

@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto&family=Rouge+Script&family=Seaweed+Script&display=swap');
+
+body{ margin: auto; width: 1200px; text-align: center;}
+
+.descriçao{font-size: 24px; color: black; text-align: right; font-weight: 100;} 
+
+p{font-size: 24px;}
+
+.titulos{color: black;}
+.serifada{text-align: left;}
+.sem_serifa{text-align: right;}
+.fantasia{text-align: left;}
+
+.rakkitt{color: #eb2020;}
+.courier{color: purple;}
+.rosarivo{color: cyan;}
+
+.saira{color: gray;}
+.content{color: orange;}
+.padauk{color:cadetblue;}
+
+.rouge{font-family: "Rouge Script"; color: #000000;}
+.plaster{color:purple;}
+.kranky{font-family: "Kranky"; color: #ef6c0c;}

@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto&family=Rouge+Script&family=Seaweed+Script&display=swap');
+
+
+:root{--cor1: #F00A0A; --cor2: #1B137B; --cor3: #0B6B2C; --cor4: #000000;}
+
+body{ margin: auto; width: 1200px; text-align: center;}
+
+h1{font-family: "Rouge Script"; text-align: right; color: #A38314; font-size: 96px; font-weight: 100;}
+
+.p1{color: var(--cor1); text-align: center;}
+
+.p2{color: var(--cor2); text-align: right;}
+
+.p3{color: var(--cor3); text-align: left;}
+
+.p4{color: var(--cor4); text-align: justify;}
+
+.titulos{font-family: "kranky"; font-size: 36px;}
+
+.paragrafos{font-family: "Roboto"; font-size: 18px;}
