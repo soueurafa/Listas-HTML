@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Kranky&family=Quicksand&family=Roboto&family=Rouge+Script&family=Seaweed+Script&display=swap');
+
+
+header {
+    background-color: whitesmoke;
+    font-size: large;
+}
+
+main {
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    font-family: "Roboto";
+}
+
+.login{
+  border:1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+  width: 583px;
+  height: 755px;
+  margin: 40px;
+}
+
+.login p{
+    width: 385px;
+}
+
+input{
+    width: 100%;
+}
+
+form{
+    width: 420px;
+    height: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+form div{
+    width: 100%;
+}
+h2{
+    margin-bottom: 100px; ;
+}
+
+select{
+    width: 100%;
+}
+
+.cadastro{
+  border:1px solid black; width: 538px; height: 755px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+  width: 583px;
+  height: 755px;
+  margin: 40px;
+}
+
+button{
+    color: white;
+    background-color: #8458FF;
+}
+
+.enviar{
+    width: 80px;
+    height: 39px;
+}
+
+.cadastrar{
+    width: 109px;
+    height: 39px;
+}
+
+footer {
+    color: white;
+    background-color: #F6511D;
+    height: 250px;
+}
+
+.codetur {
+    display: flex;
+}
+
+.codetur div {
+    padding: 40px;
+}
+
+
+.endereco {
+    width: 60%;
+}
+
+.site {
+    width: 40%;
+    text-align: right;
+}
+
+h3 {
+    font-size: 24px;
+}

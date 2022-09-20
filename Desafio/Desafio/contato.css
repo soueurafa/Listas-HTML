@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{ 
+    font-family: "Roboto"; 
+}
+
+header{
+    width: 1200px; 
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.paginas ul li a{
+    text-decoration: none;
+    display: flex;
+    color: black;
+    margin: 10px;
+}
+
+.paginas ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+}
+
+main{
+    width: 1200px; 
+    margin: auto;
+    display: flex;
+}
+
+h2{
+    color: #660027;
+}
+
+.contato{
+    border:1px solid #660027;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    width: 780px;
+    height: 700px;
+    margin-right: 10px;
+  }
+  
+  .contato p{
+      width: 385px;
+  }
+  
+  input{
+      width: 100%;
+  }
+  
+  form{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+  }
+  
+  form div{
+      width: 100%;
+      margin: 20px;
+  }
+  h2{
+      margin-bottom: 100px; ;
+  }
+  
+  select{
+      width: 100%;
+  }
+  
+  button{
+      color: white;
+      background-color: #660027;
+      margin-right: 340px;
+  }
+  
+  .enviar{
+      width: 80px;
+      height: 39px;
+  }
+
+  .dados{
+    background-color: #660027;
+    color: white;
+    width: 400px;
+    height: 700px;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  span{
+    font-weight: bold;
+  }

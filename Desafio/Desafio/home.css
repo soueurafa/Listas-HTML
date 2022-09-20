@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{ 
+    font-family: "Roboto"; 
+}
+
+header{
+    width: 1200px; 
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.paginas ul li a{
+    text-decoration: none;
+    display: flex;
+    color: black;
+    margin: 10px;
+}
+
+.paginas ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+}
+
+main{
+    width: 1200px; 
+    margin: auto;
+}
+
+.banner_home{
+    width: 1200px;
+    height: 450px;
+}
+
+.titulos{
+    color: #660027;
+}
+
+.T1 p{
+    font-size: 14px;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards {
+    width: 250px;
+    height: 410px;
+    border: 1px solid  gray;
+    margin-bottom: 30px;
+}
+
+.cards h2{
+    padding: 10px;
+}
+
+.cards p{
+    padding: 5px;
+}
+
+.saiba_mais{
+    border: 2px solid #660027;
+    color: #660027;
+    background-color: white;
+    width: 128px;
+    height: 42px;
+    margin-left: 61px;
+    margin-top: 10px;
+}
+
+.saiba_mais:hover{
+    background-color: #660027;
+    color: white;
+}
+   
+
+footer{
+    width: 100%; 
+    height: 120px;
+    margin: auto;
+    color: white;
+    background-color:#660027;
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+}
